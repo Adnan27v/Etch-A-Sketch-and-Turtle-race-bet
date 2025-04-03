@@ -61,9 +61,9 @@ def turtle_race():
                 winning_color = turtle.pencolor()
                 race_on = False
                 if user_bet.lower() == winning_color:
-                    print(f"\nYou win. The winning turtle was {winning_color}!")
+                    print(f"\nYou win. The winning turtle was {winning_color}!\n")
                 else:
-                    print(f"\nYou Lose. The winning turtle was {winning_color}!")
+                    print(f"\nYou Lose. The winning turtle was {winning_color}!\n")
 
     screen.exitonclick()
 
